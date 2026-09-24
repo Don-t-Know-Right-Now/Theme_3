@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hearth &amp; Loom — Handcrafted Home Décor in Bangladesh</title>
+<meta name="description" content="Nakshi kantha table runners, cushion covers, jute décor and home textiles. Cash on Delivery across Bangladesh.">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<div class="topbar">
+  <div class="container">
+    <span>Free delivery over ৳<span id="free-ship-label">3,000</span> · Cash on Delivery in all 64 districts</span>
+    <span class="topbar-links"><span>Hotline: 09612-345678</span><a href="#/">Track Order</a><a href="#/">Help</a><a href="#/">বাংলা</a></span>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="header-bar">
+    <div class="container header-main">
+      <button class="logo" data-go="#/">
+        <span class="logo-mark">HL</span>
+        <span class="logo-text"><span class="logo-name">Hearth &amp; Loom</span><span class="logo-sub">Handcrafted Home Décor</span></span>
+      </button>
+      <form class="search" id="search-form">
+        <input id="search-input" type="search" placeholder="Search for table runners, cushion covers, jute décor…">
+        <button type="submit" aria-label="Search"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><span>Search</span></button>
+      </form>
+      <div class="header-actions">
+        <button class="h-action" data-go="#/"><span class="h-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg></span><span class="h-label"><small>Hello, Sign in</small><b>Account</b></span></button>
+        <button class="h-action" data-go="#/"><span class="h-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 20s-7-4.5-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.5-7 10-7 10z"/></svg></span><span class="h-label"><small>Saved</small><b>Wishlist</b></span></button>
+        <button class="h-action cart-btn" data-action="open-cart"><span class="h-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 8h14l-1 12H6L5 8z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg><span class="cart-count" id="cart-count">0</span></span><span class="h-label"><small>My Cart</small><b>৳<span id="cart-sub">0</span></b></span></button>
+      </div>
+    </div>
+  </div>
+  <nav class="main-nav"><div class="container nav-row">
+    <a class="all-cats" href="#/shop"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h16"/></svg><span>All Categories</span></a>
+    <div class="nav-links" id="nav"></div>
+    <a class="nav-deal" href="#/shop?max=2000&sort=low">Festive Deals</a>
+  </div></nav>
+</header>
+
+<main id="app"></main>
+
+<footer class="site-footer">
+  <div class="container footer-cols">
+    <div><div class="footer-brand">Hearth &amp; Loom</div><span>House 12, Road 5, Dhanmondi, Dhaka 1205</span><span>support@hearthloom.com.bd</span><span>09612-345678 (10am–8pm)</span></div>
+    <div><h4>Shop</h4><a href="#/shop?cat=Table%20Runners">Table Runners</a><a href="#/shop?cat=Cushion%20Covers">Cushion Covers</a><a href="#/shop?cat=Table%20Mats%20%26%20Napkins">Table Mats &amp; Napkins</a><a href="#/shop?cat=Bed%20%26%20Throws">Bed &amp; Throws</a><a href="#/shop?cat=Jute%20D%C3%A9cor">Jute Décor</a></div>
+    <div><h4>Customer Care</h4><a href="#/">Delivery Information</a><a href="#/">Return &amp; Exchange Policy</a><a href="#/">Track Your Order</a><a href="#/">FAQ</a></div>
+    <div><h4>We Accept</h4><div class="pay-badges"><span>bKash</span><span>Nagad</span><span>Visa</span><span>Mastercard</span><span>COD</span></div></div>
+  </div>
+  <div class="container footer-bottom"><span>© 2026 Hearth &amp; Loom. All rights reserved.</span><span>Trade License No. TRAD/DNCC/000000/2026</span></div>
+</footer>
+
+<div class="drawer hidden" id="drawer">
+  <div class="drawer-backdrop" data-action="close-cart"></div>
+  <aside class="drawer-panel" id="drawer-panel"></aside>
+</div>
+
+<div class="toast hidden" id="toast"></div>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
